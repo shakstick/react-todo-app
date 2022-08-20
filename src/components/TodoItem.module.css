@@ -1,0 +1,55 @@
+li {
+	cursor: pointer;
+	color: white;
+	background: rgb(62, 57, 149);
+	background: linear-gradient(
+		222deg,
+		rgba(92, 45, 148, 1) 0%,
+		rgba(62, 57, 149, 1) 84%
+	);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+	padding-inline: 1rem;
+	padding-block: 0.5rem;
+	border-radius: 10px;
+}
+
+li p {
+	font-size: 0.85rem;
+	letter-spacing: 1.25px;
+}
+
+.icons {
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	gap: 1.5rem;
+	font-size: 1.3rem;
+}
+
+.icons * {
+	cursor: pointer;
+}
+
+.done {
+	background: linear-gradient(222deg, rgb(60, 60, 61) 0%, rgb(35, 34, 43) 84%);
+}
+
+@media (min-width: 550px) {
+	li {
+		padding-inline: 1rem;
+		padding-block: 1rem;
+		border-radius: 10px;
+	}
+
+	li p {
+		font-size: 1.1rem;
+	}
+
+	.icons {
+		gap: 1.65rem;
+		font-size: 1.5rem;
+	}
+}

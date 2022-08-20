@@ -1,0 +1,14 @@
+.container {
+	width: 85%;
+	max-width: 650px;
+	margin: auto;
+	margin-top: 4rem;
+	padding: 3rem 1rem;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+	gap: 2rem;
+	background-color: #10022a;
+	border-radius: 10px;
+}
